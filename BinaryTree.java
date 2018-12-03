@@ -63,12 +63,12 @@ public class BinaryTree {
 	// Traverse and display the tree
 	public void display() 
 	{
-		System.out.print("Binary Tree results: ");
 		if (this.root == null) {
 			System.out.println("The tree is empty, ya dummy");
 			return;
 		}
-
+		
+		System.out.print("Binary Tree results: ");
 		displayNode(this.root);
 		System.out.println();
 	}
